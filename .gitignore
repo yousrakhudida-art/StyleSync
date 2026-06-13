@@ -1,0 +1,59 @@
+# Dependencies
+node_modules/
+*.egg-info/
+__pycache__/
+.Python
+env/
+venv/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+
+# Build outputs
+dist/
+build/
+.next/
+*.o
+*.pyc
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# Testing
+coverage/
+.nyc_output/
+
+# Firebase
+.firebase/
+.firebaserc
+
+# Temporary
+tmp/
+temp/
+*.tmp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Frontend specific
+frontend/.expo/
+frontend/.expo-shared/
+
+# Backend specific
+backend/dist/
+backend/build/
